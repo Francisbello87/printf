@@ -663,4 +663,3 @@ print_string_width
 ========== _printf.c ==========
 cleanup
 run_printf
-_printf

@@ -72,7 +72,7 @@ int run_printf(const char *format, va_list args, buffer_t *output)
  */
 int _printf(const char *format, ...)
 {
-	buffer_t *output;
+    buffer_t *output;
 	va_list args;
 	int ret;
 
@@ -86,5 +86,5 @@ int _printf(const char *format, ...)
 
 	ret = run_printf(format, args, output);
 
-	return (ret);
+	
 }
